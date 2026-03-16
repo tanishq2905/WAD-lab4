@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<University
+xmlns:cse="http://example.com/cse"
+xmlns:ece="http://example.com/ece">
+
+<cse:Student>
+<cse:Name>Rahul</cse:Name>
+<cse:Year>3</cse:Year>
+</cse:Student>
+
+<ece:Student>
+<ece:Name>Anita</ece:Name>
+<ece:Year>2</ece:Year>
+</ece:Student>
+
+</University>
