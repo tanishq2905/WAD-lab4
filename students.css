@@ -1,0 +1,15 @@
+Students{
+display:table;
+border-collapse:collapse;
+}
+
+Student{
+display:table-row;
+}
+
+SID,SName,Age,Address,DOB{
+display:table-cell;
+border:1px solid black;
+padding:8px;
+font-family:Arial;
+}
