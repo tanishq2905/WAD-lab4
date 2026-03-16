@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="employees.css"?>
+
+<!DOCTYPE Employees SYSTEM "employees.dtd">
+
+<Employees>
+
+<Employee>
+<EmpID>201</EmpID>
+<EmpName>Raj</EmpName>
+<Department>CSE</Department>
+<Salary>50000</Salary>
+<Email>raj@email.com</Email>
+</Employee>
+
+<Employee>
+<EmpID>202</EmpID>
+<EmpName>Priya</EmpName>
+<Department>ECE</Department>
+<Salary>55000</Salary>
+<Email>priya@email.com</Email>
+</Employee>
+
+</Employees>
