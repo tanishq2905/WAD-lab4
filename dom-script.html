@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Modify Employee Salary</h2>
+
+<script>
+
+var parser = new DOMParser();
+
+var xmlString = `<Employees>
+<Employee>
+<EmpID>201</EmpID>
+<EmpName>Raj</EmpName>
+<Department>CSE</Department>
+<Salary>50000</Salary>
+</Employee>
+</Employees>`;
+
+var xmlDoc = parser.parseFromString(xmlString,"text/xml");
+
+xmlDoc.getElementsByTagName("Salary")[0].childNodes[0].nodeValue = "60000";
+
+console.log(xmlDoc);
+
+</script>
+
+</body>
+</html>
