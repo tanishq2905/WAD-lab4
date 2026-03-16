@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE Books SYSTEM "books.dtd">
+
+<Books>
+
+<Book>
+<Title>XML Basics</Title>
+<Author>John Smith</Author>
+<ISBN>978123456789</ISBN>
+<Publisher>TechPress</Publisher>
+<Edition>2</Edition>
+<Price>450</Price>
+</Book>
+
+<Book>
+<Title>Web Technologies</Title>
+<Author>David Miller</Author>
+<ISBN>978987654321</ISBN>
+<Publisher>Oxford</Publisher>
+<Edition>3</Edition>
+<Price>550</Price>
+</Book>
+
+</Books>
