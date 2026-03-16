@@ -1,0 +1,7 @@
+<!ELEMENT Students (Student+)>
+<!ELEMENT Student (SID,SName,Age,Address,DOB)>
+<!ELEMENT SID (#PCDATA)>
+<!ELEMENT SName (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
